@@ -1,3 +1,19 @@
+:root {
+  --almostwhite: #fff9f1;
+  --cream: #fff2df;
+  --orange: #fadabe;
+  --peach: #ffd0cf;
+  --pink: #f8bef6;
+  --purple: #c092db;
+  --palegreen: #bbd8bb;
+  --gray: #d5d5d5;
+  --lightbrown: #bf9a8b;
+  --darkbrown: #774519;
+  --light-red: #b95c5c;
+  --crazy-green: #95e995;
+  --gradientorange: linear-gradient(#fff2df, #fadabe);
+}
+
 /* Cannot override */
 
 .carouselContainer {
@@ -23,6 +39,26 @@
 }
 
 /* Can override */
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+html {
+  font-family: "MS UI Gothic", Verdana, sans-serif;
+  font-size: 16px;
+  background-color: #bbd8bb;
+  background: url("/assets/nekopattern.png") repeat;
+  padding: 0px;
+  margin: 0px;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: -webkit-crisp-edges;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+  -webkit-font-smoothing: none;
+  font-smooth: never;
+}
 
 a {
   color: var(--purple);
@@ -60,6 +96,10 @@ img {
   margin: 4px;
   color: #b08271;
   font-size: 12px;
+}
+
+.site-box > a > span {
+  color: var(--darkbrown);
 }
 
 .bottom-dot,
