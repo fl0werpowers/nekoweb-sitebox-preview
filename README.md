@@ -1,3 +1,20 @@
 # remi's Nekoweb Sitebox Previewer
 
-A quickly hacked together tool I know others need, designed to be ran by just opening index.html in your browser of choice. ES6 support is assumed.
+A quickly hacked together tool for [nekoweb](https://nekoweb.org) users to preview siteboxes, designed to be ran by just opening index.html in your browser of choice. ES6 support is assumed.
+
+Note that the preview may not be exactly accurate as to how the sitebox appears on the nekoweb website. This concerns both previewing other users' siteboxes and hacking on your own CSS, as not all selectors and properties are supported due to the way nekoweb handles `elements.css`. I personally have no idea what are the exact boundaries, but I stepped on enough rakes to know that.
+
+## Usage
+
+### Previewing siteboxes of nekoweb users
+
+- Clone this repository or download the archive.
+- Open the project in your code editor of choice,
+- Set a desired nekoweb username in `bannerInfo.js`.
+- Open `index.html` in browser to see a preview.
+
+### Hacking on your own elements.css
+
+- Uncomment line 9 in `index.html`.
+- Place `elements.css` you wish to modify in your project folder.
+- (Optional) Comment lines 49-51 in `bannerInfo.js` to not needlessly fetch stuff from nekoweb.
