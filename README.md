@@ -1,4 +1,6 @@
-# remi's Nekoweb Sitebox Previewer
+# remi's Sitebox Previewer for Nekoweb
+
+![](assets/image.png)
 
 A quickly hacked together tool for [nekoweb](https://nekoweb.org) users to preview siteboxes, designed to be ran by just opening index.html in your browser of choice.
 
