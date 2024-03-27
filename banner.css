@@ -23,6 +23,18 @@
   height: 100vh;
 }
 
+.nspSiteboxContainer {
+  width: 280px !important;
+  height: 197px !important;
+  padding: 18px;
+  background-color: #fff2df;
+  border-style: solid;
+  border-color: #774519;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .pre-site {
   position: relative;
   display: inline-block !important;
@@ -49,7 +61,7 @@ html {
   font-family: "MS UI Gothic", Verdana, sans-serif;
   font-size: 16px;
   background-color: #bbd8bb;
-  background: url("/assets/nekopattern.png") repeat;
+  background: url(https://nekoweb.org/assets/nekopattern.png) repeat;
   padding: 0px;
   margin: 0px;
   image-rendering: -moz-crisp-edges;
