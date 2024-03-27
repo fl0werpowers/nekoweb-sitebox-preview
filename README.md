@@ -1,6 +1,6 @@
 # remi's Nekoweb Sitebox Previewer
 
-A quickly hacked together tool for [nekoweb](https://nekoweb.org) users to preview siteboxes, designed to be ran by just opening index.html in your browser of choice. ES6 support is assumed.
+A quickly hacked together tool for [nekoweb](https://nekoweb.org) users to preview siteboxes, designed to be ran by just opening index.html in your browser of choice.
 
 Note that the preview may not be exactly accurate as to how the sitebox appears on the nekoweb website. This concerns both previewing other users' siteboxes and hacking on your own CSS, as not all selectors and properties are supported due to the way nekoweb handles `elements.css`. I personally have no idea what are the exact boundaries, but I stepped on enough rakes to know that.
 
