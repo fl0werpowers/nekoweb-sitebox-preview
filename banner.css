@@ -62,7 +62,7 @@ html {
   font-family: "MS UI Gothic", Verdana, sans-serif;
   font-size: 16px;
   background-color: var(--palegreen);
-  background: url(https://nekoweb.org/assets/nekopattern.png) repeat;
+  background: url(./assets/nekoweb/nekopattern.png) repeat;
   padding: 0px;
   margin: 0px;
   image-rendering: -moz-crisp-edges;
@@ -101,7 +101,7 @@ img {
 
 .site-box {
   text-align: center;
-  background-image: url(https://nekoweb.org/static/assets/cookiebox.png);
+  background-image: url(./assets/nekoweb/cookiebox.png);
   background-repeat: no-repeat;
   width: 228px;
   height: 160px;
@@ -109,6 +109,7 @@ img {
   margin: 4px;
   color: #b08271;
   font-size: 12px;
+  text-decoration: none;
 }
 
 .site-box > a > span {
@@ -127,7 +128,7 @@ img {
   margin-left: 15px;
   height: 137px;
   width: 244px;
-  background-image: url(https://nekoweb.org/static/assets/previewplaceholder.png);
+  background-image: url(./assets/nekoweb/previewplaceholder.png);
   background-color: white;
   border: 1px solid #ecbfa6;
 }

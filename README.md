@@ -1,6 +1,6 @@
 # remi's Sitebox Previewer for Nekoweb
 
-![](assets/image.png)
+![](assets/gitPreview.png)
 
 A quickly hacked together tool for [nekoweb](https://nekoweb.org) users to preview siteboxes, designed to be ran by just opening index.html in your browser of choice.
 
@@ -20,3 +20,7 @@ Note that the preview may not be exactly accurate as to how the sitebox appears 
 - Uncomment line 9 in `index.html`.
 - Place `elements.css` you wish to modify in your project folder.
 - (Optional) Comment lines 49-51 in `bannerInfo.js` to not needlessly fetch stuff from nekoweb.
+
+## Attribution
+
+Code is licensed under the MIT license. Assets from Nekoweb belong to Nekoweb and are used with permission.
