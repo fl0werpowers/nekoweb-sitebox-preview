@@ -19,7 +19,7 @@ Note that the preview may not be exactly accurate as to how the sitebox appears 
 
 - Uncomment line 9 in `index.html`.
 - Place `elements.css` you wish to modify in your project folder.
-- (Optional) Comment lines 49-51 in `bannerInfo.js` to not needlessly fetch stuff from nekoweb.
+- (Optional) Comment the function calls at the end of `bannerInfo.js` to not needlessly fetch stuff from nekoweb.
 
 ## Attribution
 
