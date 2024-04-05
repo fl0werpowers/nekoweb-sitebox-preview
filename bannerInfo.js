@@ -22,9 +22,8 @@ function fetchSiteTitle() {
       ).innerHTML = `${siteInfoJson.title}`;
     }
   };
-
   // Try ES6 fallback
-  if (!request.responseText) {
+  if (request.responseText == false) {
     const es6Req = async function () {
       const request = await fetch(
         `https://nekoweb.org/api/site/info/${username}`
@@ -37,6 +36,7 @@ function fetchSiteTitle() {
         ).innerHTML = `${siteInfoJson.title}`;
       }
     };
+    es6Req();
   }
 }
 
