@@ -11,10 +11,9 @@ function fetchSiteTitle() {
   const url = "https://nekoweb.org/api/site/info/" + username;
   const request = new XMLHttpRequest();
   request.overrideMimeType("application/json");
-  request.open("GET", url);
+  request.open("GET", url, true);
   console.log(request.responseText);
   request.onload = function () {
-    console.log("pong");
     siteInfoJson = JSON.parse(request.responseText);
     if (document.getElementById("NOTUSEDONNEKOWEBsitetitle")) {
       document.getElementById(
@@ -51,7 +50,8 @@ function fillUserSiteboxData() {
 }
 
 function fillSiteboxCSS() {
-  const stylesheet = "https://" + username + ".nekoweb.org/elements.css";
+  const stylesheet =
+    "https://nekoweb.org/site/" + username + "/files/elements.css";
 
   const cssId = "userCss";
 
