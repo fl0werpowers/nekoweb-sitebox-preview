@@ -23,4 +23,4 @@ Note that the preview may not be exactly accurate as to how the sitebox appears 
 
 ## Attribution
 
-Code is licensed under the MIT license. Assets from Nekoweb belong to Nekoweb and are used with permission.
+Code is licensed under the [MIT license](LICENSE.txt). Assets from Nekoweb belong to Nekoweb and are used with permission.
